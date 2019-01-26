@@ -442,6 +442,24 @@
      "file": "/usr/lib/node_modules/node-red/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-node-mysql": {
+   "name": "node-red-node-mysql",
+   "version": "0.0.17",
+   "local": true,
+   "nodes": {
+    "mysql": {
+     "name": "mysql",
+     "types": [
+      "MySQLdatabase",
+      "mysql"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-mysql",
+     "file": "/home/luca/.node-red/node_modules/node-red-node-mysql/68-mysql.js"
+    }
+   }
   }
  },
  "_credentialSecret": "3d84ffa54f174a45dd1c3dd06db4848c568a6c20b8c338e26ebe8e87b17ad55d",
@@ -449,11 +467,11 @@
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": "20",
+     "view-grid-size": "10",
      "view-node-status": true,
      "view-show-tips": true,
-     "view-snap-grid": false,
-     "view-show-grid": false
+     "view-snap-grid": true,
+     "view-show-grid": true
     },
     "keymap": {
      "core:deploy-flows": {
