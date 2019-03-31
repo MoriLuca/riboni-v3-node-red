@@ -161,7 +161,7 @@ module.exports = {
     // details on its contents. The following is a basic permissive set of options:
     httpNodeCors: {
         origin: "*",
-        methods: "GET,PUT,POST,DELETE"
+        methods: "GET,PUT,POST,DELETE,PATCH"
     },
 
     // If you need to set an http proxy please set an environment variable
